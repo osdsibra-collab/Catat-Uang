@@ -362,5 +362,12 @@ function showToast(msg,type='success'){
  setTimeout(()=>{t.classList.add('opacity-0','pointer-events-none');t.classList.remove('opacity-100')},2500);
 }
 </script>
+ <script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./service-worker.js");
+  });
+}
+</script>
 </body>
 </html>
