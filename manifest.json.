@@ -1,0 +1,11 @@
+{
+  "name": "CatatUang - Keuangan Bulanan",
+  "short_name": "CatatUang",
+  "description": "Aplikasi pencatat keuangan bulanan",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#059669",
+  "orientation": "portrait"
+}
